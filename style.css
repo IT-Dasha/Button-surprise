@@ -1,0 +1,49 @@
+html
+{
+    background-color: rgb(2, 1, 35);
+}
+
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+h1
+{
+    color: #ffffff;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    width: 234px;
+}
+.button_start
+{
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.button_shadow
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 20px #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+a
+{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;    
+}
